@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <form>
+      <!-- Name input field -->
+      <label for="name">Name:</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+      <br />
+
+      <!-- Password input field -->
+      <label for="password">Password:</label>
+      <input id="password" type="password" required />
+      <br />
+
+      <!-- Email input field -->
+      <label for="email">Email:</label>
+      <input id="email" type="email" required />
+      <br />
+
+      <!-- Age input field -->
+      <label for="age">Age:</label>
+      <input id="age" type="number" required />
+      <br />
+
+      <!-- Message input field -->
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        placeholder="Enter your message"
+        required
+      ></textarea>
+      <br />
+
+      <!-- Gender radio buttons -->
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+
+      <!-- Terms and Conditions checkbox -->
+      <label>
+        <input type="checkbox" id="terms" required />
+        I Agree terms and conditions
+      </label>
+      <br />
+
+      <!-- Country dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="somalia">Somalia</option>
+        <option value="jubuti">Jubuti</option>
+        <option value="kenya">Kenya</option>
+        <option value="ethiopia">Ethiopia</option>
+        <!-- Add other countries as needed -->
+      </select>
+      <br />
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
