@@ -1,0 +1,18 @@
+body {
+  background-color: lightSkyBlue;
+
+h1 {
+  color: blue;
+  font-style: italic;
+  font-style: normal;
+  text-decoration: overline;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+  background-color: darkblue;
+    border: 2px solid black;
+}
+
+}
