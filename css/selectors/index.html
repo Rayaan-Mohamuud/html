@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: skyblue;
+  }
+  h1 {
+    color: white;
+  }
+  .paragraph-1 {
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+  }
+    .par-2 {
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+    }
+    /* attribute selector */
+    input[type="password"] {
+        background-color: transparent;
+        border: 2px solid red;
+    }
+    /* descendant selector */
+    div ul li {
+        color: darkblue;
+        font-size: 20px;
+        font-style: italic;
+    }
+    /* child selector */
+    div > ul > li {
+        color: red;
+    }
+</style>
+<body>
+    <h1>Css Selector </h1>
+    <p class="paragraph-1">This is a paragraph in the CSS selectors example.</p>
+    <p class="par-2"> This is another paragraph in the CSS selectors example.</p>
+
+    <input type="text" placeholder="name"/>
+    <input type="password" placeholder="password"/>
+
+    <div>
+        <p>paragraph within a div</p>
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+        </ul>
+    </div>
+
+</body>
+</html>
